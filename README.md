@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @ThomasOfUTokyo
 - 👀 I’m interested in data science
 - 🌱 I’m currently learning python on Jupyter Notebook
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+
 
 <!---
 ThomasOfUTokyo/ThomasOfUTokyo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
