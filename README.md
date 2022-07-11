@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ThomasOfUTokyo
-- 👀 I’m interested in data science
-- 🌱 I’m currently learning python on Jupyter Notebook
+- 👀 I’m interested in data science and game development
+- 🌱 I’m currently learning python on Jupyter Notebook and good at C++
 
 
 <!---
