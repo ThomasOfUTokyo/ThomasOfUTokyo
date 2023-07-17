@@ -1,0 +1,29 @@
+#include "all.h"
+
+int main()
+{
+    std::vector<int> numbers;
+    std::vector<int> lucks;
+    for (int i = 0; i < 37; i++)
+    {
+        numbers.push_back(i + 1);
+    }
+    // std::cout << numbers.back() << std::endl;
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::shuffle(numbers.begin(), numbers.end(), gen);
+
+    std::cout << "Buy these numbers and you will win a billion JPY: ";
+    for (int i = 0; i < 7; ++i)
+    {
+        lucks.push_back(numbers[i]);
+    }
+    sort(lucks.begin(), lucks.end());
+    for (int i = 0; i < 7; ++i)
+    {
+        std::cout << lucks[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
